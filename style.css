@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 * {
     margin: 0;
@@ -15,7 +15,8 @@ body {
 }
 
 .container {
-    background-color: hsl(216,50%,16%);
+    /* background-color: hsl(216,50%,16%); */
+    background-color: rgb(150, 87, 11);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,8 +24,9 @@ body {
     height: 475px;
     border-radius: 15px; 
     padding: 20px;
-    box-shadow: 0 25px 50px 0 rgba(90, 90, 90, 0.4);
-    font-family: 'Outfit', sans-serif;
+    box-shadow: 0 25px 50px 0 rgba(114, 22, 22, 0.527);
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
     
 }
 
@@ -34,11 +36,12 @@ body {
     justify-content: space-between;
     /* background-color: yellow; */
     height: 120px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Bangers', cursive;
 }
 
 .content p {
-    background: -webkit-linear-gradient(#eee, #333);
+    text-align: center;
+    background: -webkit-linear-gradient(rgba(84, 5, 121, 0.336), rgb(30, 11, 97));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -48,7 +51,8 @@ h3 {
     /* background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
     color:white;
     background-clip: text; */
-    background: -webkit-linear-gradient(#eee, #333);
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(13, 3, 48), rgb(83, 16, 16));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
