@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: hsl(217, 54%, 11%);
+    /* background-color: hsl(217, 54%, 11%); */
+    background-color: #0d192b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +17,8 @@ body {
 
 .container {
     /* background-color: hsl(216,50%,16%); */
-    background-color: rgb(150, 87, 11);
+    /* background-color: rgb(150, 87, 11); */
+    background-color: #96570B;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,7 +59,7 @@ h3 {
     -webkit-text-fill-color: transparent;
 }
 
-.nft_container {
+.nft-container {
     display: flex;
     justify-content: center;
 }
@@ -66,6 +68,18 @@ h3 {
     height: 270px;
     width: 250px;
     border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    font-family: 'Bangers', cursive;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background: -webkit-linear-gradient(rgb(13, 3, 48), rgb(83, 16, 16));
 }
 
 .info {

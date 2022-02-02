@@ -5,32 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>NFT Card</title>
 </head>
 
-<body>
+<body id="body">
     <div class="container">
-        <div class="nft_container">
-            <img id="nft" src="./images/giant.sketchpad.svg" alt="equilibrium-nft">
+        <div class="nft-container">
+            <img id="nft" src="images/giant.sketchpad.svg" alt="equilibrium-nft">
+            <!-- <img id="nft"
+                src="https://lh3.googleusercontent.com/BLAw9VE-D5PyYfu7u_KbxBIrl_j5jI8I4UAt8H-qTGRZ4FBaFWNKb0HHP5Uk1shKvmC5LGpfi1ivK8G2BDuZOE30TVS8J8W-WngOyIE=w600"
+                alt="equilibrium-nft"> -->
         </div>
+        <button type="submit">Get New Card Here!</button>
         <div class="content">
             <h3>Here's Your Flower! #24</h3>
-            <p>The Stone Giant brings a peace offering - don't blow it!</p>
+            <p class="nft-desc">The Stone Giant brings a peace offering - don't blow it!</p>
             <div class="info">
                 <div class="stat">
                     <img src="./images/icon-ethereum.svg" alt="etheruem" srcset="">
-                    <p>0.125 ETH</p>
+                    <p class="nft-price">0.125 ETH</p>
                 </div>
                 <div class="stat">
                     <img src="./images/icon-clock.svg" alt="clock" srcset="">
-                    <p>3 days left!</p>
+                    <p class="nft-days">3 days left!</p>
                 </div>
             </div>
         </div>
         <div class="footer">
-            <img src="./images/Travis_Lisa_Palmdale_06_2018_1 - Copy.jpeg" alt="avatar">
-            <p>Artist - - <span>Travis L Orback</span></p>
+            <img class="footer-img" src="./images/Travis_Lisa_Palmdale_06_2018_1 - Copy.jpeg" alt="avatar">
+            <p>Artist - - <span class="nft-artist">Travis L Orback</span></p>
         </div>
     </div>
 </body>
